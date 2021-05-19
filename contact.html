@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>問い合わせフォーム【ワーク】</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="http://code.jquery.com/ui/1.9.0/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+  <link href="css/keyboard.css" rel="stylesheet">
+  <script src="js/jquery.keyboard.js"></script>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+  <script src="js/jquery.keyboard.js"></script>
+
+  <script>
+    $(function () {
+      $('#demo').keyboard();
+    });
+  </script>
+
+</head>
+
+<body>
+  <div class="container">
+
+    <header></header>
+
+    <img src="images/contact.jpeg" alt="">
+
+    <div class="contact">
+      <table>
+        <tr>
+          <th>お名前</th>
+          <td><input class="contact-input" name="name"></td>
+        </tr>
+        <tr>
+          <th>連絡先</th>
+          <td><input class="contact-input" type="email" name="email"></td>
+        </tr>
+        <tr>
+          <th>お問い合わせ内容</th>
+          <td><textarea></textarea></td>
+        </tr>
+      </table>
+      <button class="contact-send">送信</button>
+      <button id="demo">押すとキーボードが出てきます</button>
+    </div>
+
+    <footer></footer>
+
+  </div>
+</body>
+
+</html>

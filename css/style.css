@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 100%;
+  position: relative;
+}
+
+/* =====全体=====↑ */
+
+/* =====header=====↓ */
+
+header {
+  background-color: #c0c0c0;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+/* =====header=====↑ */
+
+img {
+  width: 100%;
+}
+
+.contact {
+  font-size: 2rem;
+}
+
+th {
+  padding: 20px;
+}
+
+.contact-input {
+  height: 30px;
+  font-size: 2rem;
+}
+
+textarea {
+  width: 600px;
+  height: 200px;
+  font-size: 2rem;
+}
+
+.contact-send {
+  background: #4d4d4d;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4d4d4d;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+}
+
+footer p {
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
